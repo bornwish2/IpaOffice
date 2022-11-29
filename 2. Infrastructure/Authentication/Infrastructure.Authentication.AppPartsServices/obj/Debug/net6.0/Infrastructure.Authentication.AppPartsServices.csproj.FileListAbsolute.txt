@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\bin\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\bin\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\bin\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\refint\Infrastructure.Authentication.AppPartsServices.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\Infrastructure.Authentication.AppPartsServices.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Authentication\Infrastructure.Authentication.AppPartsServices\obj\Debug\net6.0\ref\Infrastructure.Authentication.AppPartsServices.dll

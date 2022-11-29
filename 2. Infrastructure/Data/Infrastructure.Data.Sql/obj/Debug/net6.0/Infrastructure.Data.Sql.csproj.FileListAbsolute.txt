@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\bin\Debug\net6.0\Infrastructure.Data.Sql.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\bin\Debug\net6.0\Infrastructure.Data.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\bin\Debug\net6.0\Infrastructure.Data.Sql.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\refint\Infrastructure.Data.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\Infrastructure.Data.Sql.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.Sql\obj\Debug\net6.0\ref\Infrastructure.Data.Sql.dll

@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\refint\Infrastructure.Tools.Caching.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Caching.Microsoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Caching.Microsoft\obj\Debug\net6.0\ref\Infrastructure.Tools.Caching.Microsoft.dll

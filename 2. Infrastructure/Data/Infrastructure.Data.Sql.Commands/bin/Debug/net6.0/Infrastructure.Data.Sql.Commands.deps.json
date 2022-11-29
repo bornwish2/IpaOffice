@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Infrastructure.Data.Sql.Commands/1.0.0": {
+        "runtime": {
+          "Infrastructure.Data.Sql.Commands.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure.Data.Sql.Commands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
