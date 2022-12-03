@@ -18,15 +18,17 @@ namespace Core.Domain.User.Entities
 		{
 		}
 
-		public static User CreatUser(string name, string email, string phoneNumber, string adress, DateTime joindAt, Guid roleId)
+		public static User CreatUser(string name, string email, string phoneNumber, string adress, Guid roleId)
 		{
+			var id = Guid.NewGuid();
+			var DateJoind = DateTime.Now;
 			return new(
-				CreatNewUser(),
+				id,
 				name,
 				email,
 				phoneNumber,
 				adress,
-				joindAt,
+				DateJoind,
 				roleId
 			);
 		}
