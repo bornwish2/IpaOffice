@@ -1,6 +1,5 @@
 ﻿using Core.Domain.Form.Entities;
 using Core.Domain.Manifest.ValueObjects;
-using Core.Domain.Structure.Entities;
 using Framework.Domain.Entities;
 using System;
 using System.Collections.Generic;
