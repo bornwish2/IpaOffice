@@ -1,13 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Framework.Domain.Entities;
 
 namespace Core.Domain.Department.Entities
 {
-    internal class Department
-    {
-        /* agg
+	public sealed class Department : BaseAggregateRoot
+	{
+		/* agg
          * بخش های مختلف دبیرخانه
          مثل حسابداری، کارگزینی و ...*/
-    }
+
+		public String Titel { get; private set; }
+
+		public ICollection<User.Entities.User> Users { get; set; }
+
+		////////bevaviours//////////
+
+	}
 }
