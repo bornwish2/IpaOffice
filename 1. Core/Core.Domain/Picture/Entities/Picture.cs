@@ -10,8 +10,8 @@ namespace Core.Domain.Picture.Entities
         /*agg
         برای ایجاد و عملیات مربوط به تصاویر با فرمت
        jpg یا  png*/
-        public String Name { get; set; }
-        public Toolkits_Shared_.ValueObjects.Path Path { get; set; }
-        public Description Description { get; set; }
+        public String Name { get; protected set; }
+        public Toolkits_Shared_.ValueObjects.Path Path { get; protected set; }
+        public Description Description { get; protected set; }
     }
 }

@@ -13,7 +13,7 @@ namespace Core.Domain.Form.Entities
          شامل لیستی از کامپوننت ها
         برای مثال فرم ثبت نام یا فرم استخدام 
         که شامل کامپوننت هایی مثل نام و تاریخ تولد و عکس و ... میباشد*/
-        public string Title { get; set; }
-        public ICollection<Content<object>> MyProperty { get; set; }
+        public string Title { get;protected set; }
+        public ICollection<Content<object>> MyProperty { get;protected set; }
     }
 }
