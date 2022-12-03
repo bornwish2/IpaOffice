@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.Dispatcher.Entities
 {
-    internal class Dispatcher
+    public class Dispatcher
     {
+
     }
 }

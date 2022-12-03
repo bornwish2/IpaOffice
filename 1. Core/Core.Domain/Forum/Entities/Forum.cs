@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core.Domain.Forum.Entities
 {
-    internal class Forum
+    public class Forum
     {
         /*agg
          برای دسته بندی فرستنده ها یا گیرنده ها استفاده میشود.
