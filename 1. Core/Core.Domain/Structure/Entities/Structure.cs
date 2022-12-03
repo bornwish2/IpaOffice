@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Framework.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Core.Domain.Structure.Entities
 {
-    internal class Structure
+    public class Structure : BaseAggregateRoot
     {
         /*agg
          برای ایجاد قالب یک 
@@ -12,5 +13,6 @@ namespace Core.Domain.Structure.Entities
         که شامل یک یا چند فرم است
         عناوین قالب میتواند قالب استخدام کارمند باشد 
         و دارای فرم های اطلاعات فردی،اطلاعات شغلی و ... باشد*/
+        public string Title { get; set; }
     }
 }

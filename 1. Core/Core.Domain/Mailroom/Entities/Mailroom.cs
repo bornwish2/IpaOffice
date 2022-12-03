@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Framework.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Core.Domain.Mailroom.Entities
 {
-    internal class Mailroom
+    public class Mailroom:BaseAggregateRoot
     {
         /*agg
          دبیرخانه که مدیریت کلیه فرایند های ما در این قسمت انجام میشود
