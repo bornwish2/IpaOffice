@@ -2,7 +2,7 @@
 
 public sealed class DepartmantTitelVO : BaseValueObject<DepartmantTitelVO>
 {
-	public String Titel { get; set; }
+	public String Title { get; set; }
 
 	protected override IEnumerable<object> GetEqualityComponents()
 	{

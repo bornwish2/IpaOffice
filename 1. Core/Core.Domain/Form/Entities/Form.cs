@@ -3,12 +3,13 @@ using Framework.Domain.Entities;
 
 namespace Core.Domain.Form.Entities
 {
-	public class Form : BaseAggregateRoot
-	{
-		/*agg
+    public class Form : BaseAggregateRoot
+    {
+        /*agg
          شامل لیستی از کامپوننت ها
         برای مثال فرم ثبت نام یا فرم استخدام 
         که شامل کامپوننت هایی مثل نام و تاریخ تولد و عکس و ... میباشد*/
+        private Form(){}
         public string Title { get;protected set; }
 
     }

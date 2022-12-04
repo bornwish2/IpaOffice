@@ -2,7 +2,7 @@
 
 public sealed class DepartmantUserVO : BaseValueObject<DepartmantUserVO>
 {
-	public Guid UserId { get; set; }
+	public long UserId { get; set; }
 
 	protected override IEnumerable<object> GetEqualityComponents()
 	{

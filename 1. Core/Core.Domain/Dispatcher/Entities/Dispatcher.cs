@@ -8,6 +8,9 @@ namespace Core.Domain.Dispatcher.Entities
 {
     public class Dispatcher
     {
+        private Dispatcher()
+        {
 
+        }
     }
 }

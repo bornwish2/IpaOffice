@@ -7,8 +7,11 @@ namespace Core.Domain.Department.Entities
 		/* agg
          * بخش های مختلف دبیرخانه
          مثل حسابداری، کارگزینی و ...*/
+		private Department()
+		{
+
+		}
 		public string Title { get; protected set; }
-		public ICollection<User.Entities.User> Users { get; protected set; }
 
 
 

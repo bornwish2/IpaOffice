@@ -13,7 +13,10 @@ namespace Core.Domain.User.Entities
 		public DateTime DateJoind { get; set; }
 
 		///////behaviors////////
+		private User()
+		{
 
+		}
 		protected User(Guid Id, string name, string email, string phoneNumber, string adress, DateTime joindAt, Guid roleId)
 		{
 		}

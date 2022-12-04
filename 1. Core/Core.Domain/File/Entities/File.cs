@@ -13,6 +13,10 @@ namespace Core.Domain.File.Entities
         public String Name { get;private set; }
         public Toolkits_Shared_.ValueObjects.Path Path { get;private set; }
         public Description Description { get; private set; }
+        private File()
+        {
+
+        }
         private File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
         {
             Name= name;
