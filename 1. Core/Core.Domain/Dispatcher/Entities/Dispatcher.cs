@@ -8,6 +8,10 @@ namespace Core.Domain.Dispatcher.Entities
 {
     public class Dispatcher
     {
+        public string Name { get; set; }
+        public int MyProperty { get; set; }
+        private Dispatcher()
+        {
 
     }
 }

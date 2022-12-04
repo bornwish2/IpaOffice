@@ -13,6 +13,8 @@ namespace Core.Domain.Picture.Entities
         public String Name { get; protected set; }
         public Toolkits_Shared_.ValueObjects.Path Path { get; protected set; }
         public Description Description { get; protected set; }
+        public Guid ContentId { get; set; }
+        private Picture() { }
         private Picture(Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
         {
             Name = name;

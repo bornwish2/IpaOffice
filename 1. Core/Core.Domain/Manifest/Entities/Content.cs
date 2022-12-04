@@ -12,6 +12,7 @@ namespace Core.Domain.Manifest.Entities
     /// or other value objects such as string or datetime or etc</typeparam>
     public class Content<T>
     {
+        private Content() { }
         public Guid Id { get; private set; }
 
         ////sample of impliment generic content of manifest according to structure

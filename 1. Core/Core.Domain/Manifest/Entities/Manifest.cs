@@ -1,5 +1,6 @@
 ﻿using Core.Domain.Form.Entities;
 using Core.Domain.Manifest.ValueObjects;
+using Core.Domain.Toolkits_Shared_.ValueObjects;
 using Framework.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,17 +14,33 @@ namespace Core.Domain.Manifest.Entities
          برای ایجاد و دیگر عملیات های مربوط به نامه یا اعلامیه یا فراخوان یا ...
         پیاده سازی با کمک composite design pattern
         شامل لیستی از کانتنت ها به صورت dictionary<tuple(structureId,formId,contentId),value>*/
+        public string Title { get; set; }
+        public long StructureId { get; set; }
+        public Manifest(string title, long structureId)
+        {
+            Title = title;
+            StructureId = structureId;
+        }
+
         private Manifest()
         {
 
         }
-        public Manifest CreateManifest()
+        public Manifest CreateManifest(string title,long structureId)
         {
-            return new Manifest();
+            return new Manifest(title,structureId);
         }
-        public void DeleteManifest ()
+        public void DeleteManifest (long manifestId)
         {
 
+        }
+        public void SetTitle(string title)
+        {
+            Title = title;
+        }
+        public void ChangeTitle(long manifestId)
+        {
+          
         }
 
     }
