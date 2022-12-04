@@ -13,5 +13,15 @@ namespace Core.Domain.Picture.Entities
         public String Name { get; protected set; }
         public Toolkits_Shared_.ValueObjects.Path Path { get; protected set; }
         public Description Description { get; protected set; }
+        private Picture(Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
+        {
+            Name = name;
+            Path = path;
+            Description = description;
+        }
+        public Picture CreateFile(Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
+        {
+            return new Picture(path, description, name);
+        }
     }
 }

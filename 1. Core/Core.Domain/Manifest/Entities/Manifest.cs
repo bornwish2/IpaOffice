@@ -13,8 +13,18 @@ namespace Core.Domain.Manifest.Entities
          برای ایجاد و دیگر عملیات های مربوط به نامه یا اعلامیه یا فراخوان یا ...
         پیاده سازی با کمک composite design pattern
         شامل لیستی از کانتنت ها به صورت dictionary<tuple(structureId,formId,contentId),value>*/
-        //public ICollection<Content> Contents { get; set; }
-        public ICollection<Form.Entities.Form> Forms { get;protected set; }
-        public Structure.Entities.Structure Structure { get; set; }
+        private Manifest()
+        {
+
+        }
+        public Manifest CreateManifest()
+        {
+            return new Manifest();
+        }
+        public void DeleteManifest ()
+        {
+
+        }
+
     }
 }
