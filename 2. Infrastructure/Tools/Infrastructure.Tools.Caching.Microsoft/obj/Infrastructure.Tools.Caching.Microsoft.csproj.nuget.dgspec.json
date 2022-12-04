@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj": {}
+    "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj": {}
   },
   "projects": {
-    "D:\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj": {
+    "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj",
+        "projectUniqueName": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj",
         "projectName": "Infrastructure.Tools.Caching.Microsoft",
-        "projectPath": "D:\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj",
-        "packagesPath": "C:\\Users\\milad\\.nuget\\packages\\",
-        "outputPath": "D:\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\obj\\",
+        "projectPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\Infrastructure.Tools.Caching.Microsoft.csproj",
+        "packagesPath": "C:\\Users\\mahyar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Tools\\Infrastructure.Tools.Caching.Microsoft\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mahyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

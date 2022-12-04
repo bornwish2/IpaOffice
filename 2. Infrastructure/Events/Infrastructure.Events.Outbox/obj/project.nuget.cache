@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g+h/trf3n3mQYXxHZAiMISZ+B13eboaCBoxRahtJvsW7QmOgthqRzfHClM3IzOdSxkx8SLb+pNn89ptyfXFCXg==",
+  "dgSpecHash": "a9vnXngPNwaPzErnp5oQejjCfxlX6XIWR05woMIBQpMBBh2aXQl8QQpJG0WwYLa0ceb9tk7l+1y4CE/XRLBEpQ==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Events\\Infrastructure.Events.Outbox\\Infrastructure.Events.Outbox.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Events\\Infrastructure.Events.Outbox\\Infrastructure.Events.Outbox.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

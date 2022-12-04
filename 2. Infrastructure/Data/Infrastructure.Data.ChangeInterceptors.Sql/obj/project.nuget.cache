@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rs7umUYAXm7Vgap4ifx5UKNrECQ5GKXOIDIbmkGoUx1ilbs8tgairbipNbkWxxhIB2bFMMIvrQtGmr05P3XtXg==",
+  "dgSpecHash": "IW+REkDDDw5BTYLj3B3JF5Cnfi4qmtat9QuZ2rL4gCx3oQqvRe+7NGM+/QdKoG8YryC15wKZMTKdcvbS6MTzfg==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Data\\Infrastructure.Data.ChangeInterceptors.Sql\\Infrastructure.Data.ChangeInterceptors.Sql.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Data\\Infrastructure.Data.ChangeInterceptors.Sql\\Infrastructure.Data.ChangeInterceptors.Sql.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

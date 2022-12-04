@@ -1,4 +1,5 @@
 ﻿using Core.Domain.Manifest.ValueObjects;
+using Core.Domain.Picture.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Core.Domain.Manifest.Entities
     /// </summary>
     /// <typeparam name="T"> T can be File or Picture or Document 
     /// or other value objects such as string or datetime or etc</typeparam>
-    public class Content<T>
+    public  class Content<T>:IContent
     {
         private Content() { }
         public Guid Id { get; private set; }
@@ -24,5 +25,20 @@ namespace Core.Domain.Manifest.Entities
         //    };
         //    return componentByValue;
         //}
+    }
+    public interface IContent
+    {
+
+    }
+    public abstract class Creator
+    {
+        public abstract IContent FactoryMethod(); 
+    }
+    public class ContentPicture<T> : Creator, IContent 
+    {
+        public override IContent FactoryMethod()
+        {
+            return new ContentPicture<Picture.Entities.Picture>();
+        }
     }
 }

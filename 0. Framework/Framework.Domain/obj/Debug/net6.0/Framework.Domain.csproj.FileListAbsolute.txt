@@ -10,3 +10,15 @@ D:\Source\repos\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framewo
 D:\Source\repos\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\refint\Framework.Domain.dll
 D:\Source\repos\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.pdb
 D:\Source\repos\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\ref\Framework.Domain.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\bin\Debug\net6.0\Framework.Domain.deps.json
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\bin\Debug\net6.0\Framework.Domain.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\bin\Debug\net6.0\Framework.Domain.pdb
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.csproj.AssemblyReference.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.AssemblyInfoInputs.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.AssemblyInfo.cs
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\refint\Framework.Domain.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\Framework.Domain.pdb
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Domain\obj\Debug\net6.0\ref\Framework.Domain.dll

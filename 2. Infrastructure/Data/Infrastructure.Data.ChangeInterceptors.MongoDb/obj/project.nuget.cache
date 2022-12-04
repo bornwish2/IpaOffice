@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HK38Yyvn1nEr9Am0BvjbaefLihFZkWgnql8m+96ka8B7o5LUSQDyqtrUBXpEV/ayne/w+3bsSvZmQTNJ74w8DQ==",
+  "dgSpecHash": "M8uZ4TNEq8xfFGc6NzyB4bU8ataLgVHDQKnLXdLCgHE+D9LZarEQwTnsQav3G/ut7MUR+Ac4oxAl77YB+qTwfA==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Data\\Infrastructure.Data.ChangeInterceptors.MongoDb\\Infrastructure.Data.ChangeInterceptors.MongoDb.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Data\\Infrastructure.Data.ChangeInterceptors.MongoDb\\Infrastructure.Data.ChangeInterceptors.MongoDb.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

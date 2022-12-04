@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zII9duMCIKi1KmK8wdRAZGy1jcvWTlANbOPhyy8hgzDvvfdPCbIoQerjXiC7Pd3orUwmeedgVDqLZlpW2nubOQ==",
+  "dgSpecHash": "5mWL7th26CFkQS6/i+ECPJMpa/8ko8TOXzde7iCudnVPvSTEWnVDb6pKa910zOqjOtw77XkIZb3ks9mmFYpf/w==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Events\\Infrastructure.Events.PoolingPublisher\\Infrastructure.Events.PoolingPublisher.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Events\\Infrastructure.Events.PoolingPublisher\\Infrastructure.Events.PoolingPublisher.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

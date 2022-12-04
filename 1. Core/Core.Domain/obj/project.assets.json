@@ -596,23 +596,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milad\\.nuget\\packages\\": {},
+    "C:\\Users\\mahyar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IpaOffice\\1. Core\\Core.Domain\\Core.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\1. Core\\Core.Domain\\Core.Domain.csproj",
       "projectName": "Core.Domain",
-      "projectPath": "D:\\IpaOffice\\1. Core\\Core.Domain\\Core.Domain.csproj",
-      "packagesPath": "C:\\Users\\milad\\.nuget\\packages\\",
-      "outputPath": "D:\\IpaOffice\\1. Core\\Core.Domain\\obj\\",
+      "projectPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\1. Core\\Core.Domain\\Core.Domain.csproj",
+      "packagesPath": "C:\\Users\\mahyar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\1. Core\\Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mahyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -628,11 +628,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\IpaOffice\\0. Framework\\Framework.Domain\\Framework.Domain.csproj": {
-              "projectPath": "D:\\IpaOffice\\0. Framework\\Framework.Domain\\Framework.Domain.csproj"
+            "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\0. Framework\\Framework.Domain\\Framework.Domain.csproj": {
+              "projectPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\0. Framework\\Framework.Domain\\Framework.Domain.csproj"
             },
-            "D:\\IpaOffice\\0. Framework\\Framework.Utilities\\Framework.Utilities.csproj": {
-              "projectPath": "D:\\IpaOffice\\0. Framework\\Framework.Utilities\\Framework.Utilities.csproj"
+            "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\0. Framework\\Framework.Utilities\\Framework.Utilities.csproj": {
+              "projectPath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\0. Framework\\Framework.Utilities\\Framework.Utilities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fccBbxBjI96RUaqQTjjnZZznYggz0EzJQjGOEWyXORFntG6LFjhsal9tNp8651Wd9SDQjh3hU2esg/b1D/e+oQ==",
+  "dgSpecHash": "1XOtyj7tG6DmkSEP4cxyVBl0CD7msm72r2fvc2PeE7sSLyuwrw6NmWHvevxxawFaUZWGAZpfJW/8ztzggNIErQ==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Messaging\\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Messaging\\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

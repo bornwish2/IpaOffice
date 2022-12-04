@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgfz/F88Po2Co58RXbBPfZUGnywvxhpu3AgGWa6NAALu/6AQuIpWH9i+esqqPaNOPkf8scCicdib9eGu/l9EZw==",
+  "dgSpecHash": "TtfvdfXC9dmXwNQENVKjy4I0q18/3nHmDCgdKyF/GT12IKLFFgX6a5wlRp5bK2qVz1j8j9TtY860wN6EhfA20Q==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Authentication\\Infrastructure.Authentication.AppPartsServices\\Infrastructure.Authentication.AppPartsServices.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Authentication\\Infrastructure.Authentication.AppPartsServices\\Infrastructure.Authentication.AppPartsServices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

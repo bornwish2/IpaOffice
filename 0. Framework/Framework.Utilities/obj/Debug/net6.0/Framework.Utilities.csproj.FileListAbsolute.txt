@@ -10,3 +10,15 @@ D:\Source\repos\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Fram
 D:\Source\repos\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\refint\Framework.Utilities.dll
 D:\Source\repos\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.pdb
 D:\Source\repos\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\ref\Framework.Utilities.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\bin\Debug\net6.0\Framework.Utilities.deps.json
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\bin\Debug\net6.0\Framework.Utilities.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\bin\Debug\net6.0\Framework.Utilities.pdb
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.csproj.AssemblyReference.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.AssemblyInfoInputs.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.AssemblyInfo.cs
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\refint\Framework.Utilities.dll
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\Framework.Utilities.pdb
+C:\Users\mahyar\Desktop\Projects\IpaOffice\0. Framework\Framework.Utilities\obj\Debug\net6.0\ref\Framework.Utilities.dll

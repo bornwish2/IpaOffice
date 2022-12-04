@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DH/pWwECEFsRpdn+lq7zoK1Jbtmnudx0fv0E1E2YSj4u5Mnic490yJBdRLOfigaQBIZrR+Omro/RFYKHgBQyYg==",
+  "dgSpecHash": "SS2IyzF4XIldFgpwHRWrU8NVmsbqHhrHi5JmQvI/z1d9w2Lf1HtAWcal45iMeoRirTOHhGaHdRbkuEtvUlGzwg==",
   "success": true,
-  "projectFilePath": "D:\\IpaOffice\\2. Infrastructure\\Messaging\\Infrastructure.Messaging.MessageBus.RabbitMq\\Infrastructure.Messaging.MessageBus.RabbitMq.csproj",
+  "projectFilePath": "C:\\Users\\mahyar\\Desktop\\Projects\\IpaOffice\\2. Infrastructure\\Messaging\\Infrastructure.Messaging.MessageBus.RabbitMq\\Infrastructure.Messaging.MessageBus.RabbitMq.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
