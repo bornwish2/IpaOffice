@@ -14,34 +14,35 @@ namespace Core.Domain.Manifest.Entities
          برای ایجاد و دیگر عملیات های مربوط به نامه یا اعلامیه یا فراخوان یا ...
         پیاده سازی با کمک composite design pattern
         شامل لیستی از کانتنت ها به صورت dictionary<tuple(structureId,formId,contentId),value>*/
-        public string Title { get; set; }
-        public long StructureId { get; set; }
-        public Manifest(string title, long structureId)
+        public string Title { get;protected set; }
+        public long StructureId { get;protected set; }
+        public long DispatcherId { get; protected set; }
+        public Manifest(string title, long structureId,long dispatcherId)
         {
             Title = title;
             StructureId = structureId;
+            DispatcherId = dispatcherId;
         }
 
         private Manifest()
         {
 
         }
-        public Manifest CreateManifest(string title,long structureId)
+        public Manifest CreateManifest(string title,long structureId,long dispatcherId)
         {
-            return new Manifest(title,structureId);
+            return new Manifest(title,structureId, dispatcherId);
         }
         public void DeleteManifest (long manifestId)
         {
 
         }
-        public void SetTitle(string title)
-        {
-            Title = title;
-        }
+        //public void SetTitle(string title)
+        //{
+        //    Title = title;
+        //}
         public void ChangeTitle(long manifestId)
         {
           
         }
-
     }
 }

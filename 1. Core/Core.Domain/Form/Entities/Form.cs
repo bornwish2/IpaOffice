@@ -11,6 +11,10 @@ namespace Core.Domain.Form.Entities
         که شامل کامپوننت هایی مثل نام و تاریخ تولد و عکس و ... میباشد*/
         public string Title { get;protected set; }
         public ICollection<Guid> ContentIds { get; protected set; }
+        private Form()
+        {
+
+        }
 
     }
 }

@@ -14,15 +14,17 @@ namespace Core.Domain.Document.Entities
         public String Code { get; set; }
         public Toolkits_Shared_.ValueObjects.Path Path { get; set; }
         public Description Description { get; set; }
-        private Document(Toolkits_Shared_.ValueObjects.Path path, Description description, string code)
+        public Guid ContentId { get; set; }
+        private Document(Toolkits_Shared_.ValueObjects.Path path, Description description, string code, Guid contentId)
         {
             Code = code;
             Path = path;
             Description = description;
+            ContentId = contentId;
         }
-        public Document CreateDocument(Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
+        public Document CreateDocument(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
-            return new Document(path, description, name);
+            return new Document(path, description, name,contentId);
         }
     }
 }

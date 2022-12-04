@@ -13,15 +13,17 @@ namespace Core.Domain.File.Entities
         public String Name { get;private set; }
         public Toolkits_Shared_.ValueObjects.Path Path { get;private set; }
         public Description Description { get; private set; }
-        private File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name)
+        public Guid ContentId { get; set; }
+        private File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name, Guid contentId)
         {
-            Name= name;
-            Path= path;
-            Description= description;
+            Name = name;
+            Path = path;
+            Description = description;
+            ContentId = contentId;
         }
-        public File CreateFile(Toolkits_Shared_.ValueObjects.Path path,Description description,string name)
+        public File CreateFile(Toolkits_Shared_.ValueObjects.Path path,Description description,string name,Guid contentId)
         {
-            return new File(path,description,name);
+            return new File(path,description,name, contentId);
         } 
         public void DeleteFile (File file)
         {

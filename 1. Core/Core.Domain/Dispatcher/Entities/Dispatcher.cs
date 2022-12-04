@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Framework.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,22 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.Dispatcher.Entities
 {
-    public class Dispatcher
+    public class Dispatcher : BaseAggregateRoot
     {
-        public string Name { get; set; }
-        public int MyProperty { get; set; }
+        public string Name { get;protected set; }
+        public Guid UserId { get; private set; }
         private Dispatcher()
         {
 
-    }
+        }
+        public Dispatcher(string name, Guid userId)
+        {
+            Name = name;
+            UserId = userId;
+        }
+        public Dispatcher CreateDispatcher(string name,Guid userId)
+        {
+            return new Dispatcher(name, userId);
+        }
+    } 
 }
