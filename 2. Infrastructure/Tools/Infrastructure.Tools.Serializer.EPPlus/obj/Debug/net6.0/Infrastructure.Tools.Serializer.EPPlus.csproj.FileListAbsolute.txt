@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\bin\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\bin\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\bin\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\refint\Infrastructure.Tools.Serializer.EPPlus.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\Infrastructure.Tools.Serializer.EPPlus.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.EPPlus\obj\Debug\net6.0\ref\Infrastructure.Tools.Serializer.EPPlus.dll

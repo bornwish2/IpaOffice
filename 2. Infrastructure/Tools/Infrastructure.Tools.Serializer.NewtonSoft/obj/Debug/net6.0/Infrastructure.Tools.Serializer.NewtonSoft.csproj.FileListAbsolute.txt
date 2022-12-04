@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\bin\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\bin\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\bin\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\refint\Infrastructure.Tools.Serializer.NewtonSoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\Infrastructure.Tools.Serializer.NewtonSoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Serializer.NewtonSoft\obj\Debug\net6.0\ref\Infrastructure.Tools.Serializer.NewtonSoft.dll

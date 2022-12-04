@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\refint\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers.Store.Sql\obj\Debug\net6.0\ref\Infrastructure.Messaging.IdempotentConsumers.Store.Sql.dll

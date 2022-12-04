@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\bin\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\bin\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\bin\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\refint\Infrastructure.Data.ChangeInterceptors.MongoDb.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\Infrastructure.Data.ChangeInterceptors.MongoDb.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Data\Infrastructure.Data.ChangeInterceptors.MongoDb\obj\Debug\net6.0\ref\Infrastructure.Data.ChangeInterceptors.MongoDb.dll

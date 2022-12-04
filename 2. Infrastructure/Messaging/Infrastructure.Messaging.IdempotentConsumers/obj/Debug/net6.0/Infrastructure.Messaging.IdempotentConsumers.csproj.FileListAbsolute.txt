@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\bin\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\refint\Infrastructure.Messaging.IdempotentConsumers.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\Infrastructure.Messaging.IdempotentConsumers.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Messaging\Infrastructure.Messaging.IdempotentConsumers\obj\Debug\net6.0\ref\Infrastructure.Messaging.IdempotentConsumers.dll

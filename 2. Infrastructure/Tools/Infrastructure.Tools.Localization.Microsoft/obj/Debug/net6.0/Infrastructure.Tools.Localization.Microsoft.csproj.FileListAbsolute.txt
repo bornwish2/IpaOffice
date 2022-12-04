@@ -1,0 +1,12 @@
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.deps.json
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\bin\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.csproj.AssemblyReference.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.AssemblyInfoInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.AssemblyInfo.cs
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.csproj.CoreCompileInputs.cache
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\refint\Infrastructure.Tools.Localization.Microsoft.dll
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\Infrastructure.Tools.Localization.Microsoft.pdb
+D:\Source\repos\IpaOffice\2. Infrastructure\Tools\Infrastructure.Tools.Localization.Microsoft\obj\Debug\net6.0\ref\Infrastructure.Tools.Localization.Microsoft.dll

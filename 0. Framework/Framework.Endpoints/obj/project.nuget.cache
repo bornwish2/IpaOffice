@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "d2pNAm3AGYULsb51ZKsszKRrOIDHtHM5AahO3fzbQhCLIWQl5D/TOd5Izb0nq6VeGuN9bNy2jLBmmPBueGrD0A==",
+  "success": true,
+  "projectFilePath": "D:\\IpaOffice\\0. Framework\\Framework.Endpoints\\Framework.Endpoints.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\milad\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\milad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
