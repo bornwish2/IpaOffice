@@ -9,7 +9,7 @@ namespace Core.Domain.Toolkits_Shared_.ValueObjects
 {
     public class Id : BaseValueObject<Id>
     {
-        public Guid Value { get; set; }
+        public long Value { get; set; }
         protected override IEnumerable<object> GetEqualityComponents()
         {
             throw new NotImplementedException();
