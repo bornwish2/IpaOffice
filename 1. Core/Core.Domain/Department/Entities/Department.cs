@@ -1,5 +1,6 @@
 ﻿using Framework.Domain.Entities;
 using Framework.Endpoints.Exceptions;
+using user = Core.Domain.User.Entities.User;
 
 namespace Core.Domain.Department.Entities
 {
@@ -10,8 +11,8 @@ namespace Core.Domain.Department.Entities
         مثل حسابداری، کارگزینی و ...
 		*/
 
-		private readonly List<User.Entities.User> _users;
-		public IReadOnlyCollection<User.Entities.User> Users => _users;
+		private readonly List<user> _users;
+		public IReadOnlyCollection<user> Users => _users;
 
 		private DateTime _creatDate;
 
@@ -49,7 +50,7 @@ namespace Core.Domain.Department.Entities
 		/// Add existing user to departmant
 		/// </summary>
 		/// <param name="user"></param>
-		public void AddUser(User.Entities.User user) => _users.Add(user);
+		public void AddUser(user user) => _users.Add(user);
 
 
 		/// <summary>
@@ -63,9 +64,9 @@ namespace Core.Domain.Department.Entities
 		/// <param name="department"></param>
 		/// <param name="adress"></param>
 		/// <param name="dateJoind"></param>
-		public void CreatUser(Role roleId, string? firstName, string? lastName, string? email, string? phoneNumber, Department department, string? adress)
+		public void CreatUser(Role roleId, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
 		{
-			var user = User.Entities.User.CreatUser(
+			var newUser = user.CreatUser(
 				roleId,
 				firstName,
 				lastName,
@@ -74,7 +75,7 @@ namespace Core.Domain.Department.Entities
 				adress
 				);
 
-			_users.Add(user);
+			_users.Add(newUser);
 		}
 
 
@@ -82,7 +83,7 @@ namespace Core.Domain.Department.Entities
 		/// remove User From Departmant
 		/// </summary>
 		/// <param name="user"></param>
-		public void RemoveUser(User.Entities.User user) => _users.Remove(user);
+		public void RemoveUser(user user) => _users.Remove(user);
 
 
 		/// <summary>
@@ -91,7 +92,7 @@ namespace Core.Domain.Department.Entities
 		/// <param name="newUser"></param>
 		/// <param name="oldUser"></param>
 		/// <exception cref="BadRequestException"></exception>
-		public void UpdateUser(User.Entities.User newUser, User.Entities.User oldUser)
+		public void UpdateUser(user newUser, user oldUser)
 		{
 			if (ReferenceEquals(oldUser, newUser))
 				throw new BadRequestException("user is the same");
