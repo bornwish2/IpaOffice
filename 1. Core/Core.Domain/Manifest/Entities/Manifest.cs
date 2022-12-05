@@ -1,5 +1,4 @@
 ﻿using Core.Domain.Form.Entities;
-using Core.Domain.Manifest.ValueObjects;
 using Core.Domain.Toolkits_Shared_.ValueObjects;
 using Framework.Domain.Entities;
 using System;
@@ -17,6 +16,7 @@ namespace Core.Domain.Manifest.Entities
         public string Title { get;protected set; }
         public long StructureId { get;protected set; }
         public long DispatcherId { get; protected set; }
+        public ManifestState State { get; set; }
         public Manifest(string title, long structureId,long dispatcherId)
         {
             Title = title;

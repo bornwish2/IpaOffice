@@ -15,7 +15,7 @@ namespace Core.Domain.Dispatcher.Entities
         {
 
         }
-        public Dispatcher(string name, Guid userId)
+        private Dispatcher(string name, Guid userId)
         {
             Name = name;
             UserId = userId;
