@@ -3,22 +3,16 @@
 public sealed class Role : BaseEntity
 {
 
-	public Guid Id { get; private set; }
 	public string RoleName { get; set; }
 
 
-	private Role(Guid id, string roleName)
-	{
-		Id = id;
-		RoleName = roleName;
+	private Role(string roleName) => RoleName = roleName;
 
-	}
+	/// <summary>
+	/// Add new role 
+	/// </summary>
+	/// <param name="roleName"></param>
+	/// <returns></returns>
+	public static Role CreatRole(string roleName) => new(roleName);
 
-	public static Role CreatRole(string roleName)
-	{
-		return new(
-			RoleId.CreatRoleId().Id,
-			roleName
-			);
-	}
 }
