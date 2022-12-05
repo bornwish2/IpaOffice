@@ -42,7 +42,7 @@ namespace Core.Domain.Department.Entities
 		/// <param name="title"></param>
 		/// <param name="description"></param>
 		/// <returns>Department</returns>
-		public Department CreatNew(string title, string description) => new(title, description);
+		public static Department CreatNew(string title, string description) => new(title, description);
 
 
 		/// <summary>
