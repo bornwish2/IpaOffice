@@ -1,10 +1,12 @@
-﻿using Framework.Domain.Entities;
+﻿using Core.Domain.User.ValueObject;
+using Framework.Domain.Entities;
 
 namespace Core.Domain.User.Entities
 {
 	public sealed class User : BaseAggregateRoot
 	{
-		private readonly Role _role;
+		public Role RoleId { get; }
+		public Department.Entities.Department Department { get; }
 
 
 		public Guid Id { get; }
@@ -13,7 +15,7 @@ namespace Core.Domain.User.Entities
 
 		public string? LastName { get; }
 
-		public string? email { get; }
+		public string? Email { get; }
 
 		public string? PhoneNumber { get; }
 
@@ -24,21 +26,45 @@ namespace Core.Domain.User.Entities
 
 		///////behaviors////////
 
-		public User(Role role, Guid id, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+		private User(Role roleId, Department.Entities.Department department, Guid id, string? firstName,
+			string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
 		{
-			_role = role;
+			RoleId = roleId;
+			Department = department;
 			Id = id;
 			FirstName = firstName;
 			LastName = lastName;
-			this.email = email;
+			Email = email;
 			PhoneNumber = phoneNumber;
 			Adress = adress;
 			DateJoind = dateJoind;
 		}
 
-		public static User CreatUser()
+		public User(Department.Entities.Department department)
 		{
-
+			Department = department;
 		}
+		public static User CreatUser(Role roleId, Department.Entities.Department department,
+			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+		{
+			return new(
+				roleId,
+				department,
+				UserId.CreatNewUserId().Id,
+				firstName,
+				lastName,
+				email,
+				phoneNumber,
+				adress,
+				DateTime.Now
+			);
+		}
+
+		public static User AddDepartment(Department.Entities.Department department)
+		{
+			return new(department);
+		}
+
+
 	}
 }
