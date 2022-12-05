@@ -4,36 +4,41 @@ namespace Core.Domain.User.Entities
 {
 	public sealed class User : BaseAggregateRoot
 	{
-		public Guid Id { get; private set; }
-		public Guid RoleId { get; set; }
-		public string? name { get; private set; }
-		public string? email { get; private set; }
-		public string? PhoneNumber { get; private set; }
-		public string? Adress { get; private set; }
-		public DateTime DateJoind { get; set; }
+		private readonly Role _role;
+
+
+		public Guid Id { get; }
+
+		public string? FirstName { get; }
+
+		public string? LastName { get; }
+
+		public string? email { get; }
+
+		public string? PhoneNumber { get; }
+
+		public string? Adress { get; }
+
+		public DateTime DateJoind { get; }
+
 
 		///////behaviors////////
-		private User()
+
+		public User(Role role, Guid id, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+		{
+			_role = role;
+			Id = id;
+			FirstName = firstName;
+			LastName = lastName;
+			this.email = email;
+			PhoneNumber = phoneNumber;
+			Adress = adress;
+			DateJoind = dateJoind;
+		}
+
+		public static User CreatUser()
 		{
 
-		}
-		protected User(Guid Id, string name, string email, string phoneNumber, string adress, DateTime joindAt, Guid roleId)
-		{
-		}
-
-		public static User CreatUser(string name, string email, string phoneNumber, string adress, Guid roleId)
-		{
-			var id = Guid.NewGuid();
-			var DateJoind = DateTime.Now;
-			return new(
-				id,
-				name,
-				email,
-				phoneNumber,
-				adress,
-				DateJoind,
-				roleId
-			);
 		}
 	}
 }
