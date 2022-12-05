@@ -31,7 +31,7 @@ namespace Core.Domain.User.Entities
 		/// <param name="phoneNumber"></param>
 		/// <param name="adress"></param>
 		/// <param name="dateJoind"></param>
-		private User(Role roleId, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+		private User(Role roleId, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
 		{
 			Role = roleId;
 			FirstName = firstName;
@@ -39,7 +39,7 @@ namespace Core.Domain.User.Entities
 			Email = email;
 			PhoneNumber = phoneNumber;
 			Adress = adress;
-			DateJoind = dateJoind;
+			DateJoind = DateTime.Now;
 		}
 
 
@@ -52,14 +52,14 @@ namespace Core.Domain.User.Entities
 		/// <param name="phoneNumber"></param>
 		/// <param name="adress"></param>
 		/// <param name="dateJoind"></param>
-		private User(string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+		private User(string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
 		{
 			FirstName = firstName;
 			LastName = lastName;
 			Email = email;
 			PhoneNumber = phoneNumber;
 			Adress = adress;
-			DateJoind = dateJoind;
+			DateJoind = DateTime.Now;
 		}
 
 
@@ -82,7 +82,7 @@ namespace Core.Domain.User.Entities
 		/// <param name="dateJoind"></param>
 		/// <returns>User</returns>
 		public static User CreatUser(Role role,
-			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
 		{
 			return new(
 				role,
@@ -90,8 +90,7 @@ namespace Core.Domain.User.Entities
 				lastName,
 				email,
 				phoneNumber,
-				adress,
-				DateTime.Now
+				adress
 			);
 		}
 
@@ -108,15 +107,14 @@ namespace Core.Domain.User.Entities
 		/// <param name="dateJoind"></param>
 		/// <returns>User</returns>
 		public static User CreatUser(
-			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress, DateTime dateJoind)
+			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
 		{
 			return new(
 				firstName,
 				lastName,
 				email,
 				phoneNumber,
-				adress,
-				DateTime.Now
+				adress
 			);
 		}
 

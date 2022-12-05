@@ -15,4 +15,11 @@ public sealed class Role : BaseEntity
 	/// <returns></returns>
 	public static Role CreatRole(string roleName) => new(roleName);
 
+	/// <summary>
+	/// chenge the roleName
+	/// </summary>
+	/// <param name="roleName"></param>
+	/// <param name="role"></param>
+	public static void UpdateRole(string roleName, Role role) => role.RoleName = roleName;
+
 }

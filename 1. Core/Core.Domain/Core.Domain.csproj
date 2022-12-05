@@ -8,7 +8,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\0. Framework\Framework.Domain\Framework.Domain.csproj" />
+    <ProjectReference Include="..\..\0. Framework\Framework.Endpoints\Framework.Endpoints.csproj" />
     <ProjectReference Include="..\..\0. Framework\Framework.Utilities\Framework.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mailroom\ValueObject\" />
   </ItemGroup>
 
 </Project>
