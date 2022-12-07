@@ -6,13 +6,17 @@ using System.Text;
 
 namespace Core.Domain.Content.Entities
 {
-    public class Content : BaseEntity
+    public class Content : BaseAggregateRoot
     {
+        #region Properties
         public Guid Id { get; private set; }
-        public long FormId { get;private set; }
         public string Name { get;private set; }
         public ContentType Type { get;private set; }
+        public ContentState State { get; set; }
+        public long FormId { get; private set; }
         public Guid ValueId { get;private set; }
+        #endregion
+        #region Constructors
         private Content()
         {
 
@@ -23,7 +27,11 @@ namespace Core.Domain.Content.Entities
             Name= name;
             Type= type;
             FormId= formId;
+            State = ContentState.Writing;
         }
+        #endregion
+
+        #region Methods
         public void FillContent(Guid valueId)
         {
             ValueId= valueId;
@@ -32,6 +40,20 @@ namespace Core.Domain.Content.Entities
         {
             ValueId = valueId;
         }
+        public void RemoveContent(Content content)
+        {
+
+        }
+        public void ChangeName(Content content,string name)
+        {
+            content.Name= name;
+        }
+        public void SetContentState(Content content,ContentState state)
+        {
+            content.State = state;
+        }
+
+        #endregion
     }
     public static class ContentFactory
     {

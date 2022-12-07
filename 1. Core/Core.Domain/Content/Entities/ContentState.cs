@@ -11,12 +11,12 @@ namespace Core.Domain.Content.Entities
     {
 
         [Description("درحال نوشتن")]
-        Draft = 1,
+        Writing= 1,
 
         [Description("نوشته شده")]
-        Sending = 2,
+        Written = 2,
 
         [Description("اضافه شده")]
-        Sent = 3,
+        Added = 3,
     }
 }

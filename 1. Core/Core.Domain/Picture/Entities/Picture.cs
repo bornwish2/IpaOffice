@@ -16,16 +16,16 @@ namespace Core.Domain.Picture.Entities
         public Description Description { get; protected set; }
         public Guid ContentId { get; set; }
         private Picture() { }
-        private Picture(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
+        public Picture(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
             Name = name;
             Path = path;
             Description = description;
             ContentId=contentId;
         }
-        public Picture CreateFile(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
+        public void AddFile(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
-            return new Picture(path, description, name,contentId);
+            
         }
         public void ChangePath(long pictureId)
         {

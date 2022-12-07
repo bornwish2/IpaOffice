@@ -14,7 +14,7 @@ namespace Core.Domain.Manifest.Entities
         public long FormId { get;protected set; }
         public long DispatcherId { get; protected set; }
         public ManifestState State { get;protected set; }
-        private Manifest(string title, long formId ,long dispatcherId)
+        public Manifest(string title, long formId ,long dispatcherId)
         {
             Title = title;
             FormId= formId;
@@ -25,11 +25,11 @@ namespace Core.Domain.Manifest.Entities
         {
 
         }
-        public Manifest CreateManifest(string title,long formId,long dispatcherId)
+        public void AddManifest(string title,long formId,long dispatcherId)
         {
-            return new Manifest(title,formId, dispatcherId);
+          
         }
-        public void DeleteManifest (Guid manifestId)
+        public void RemoveManifest (Manifest manifest)
         {
 
         }
@@ -37,9 +37,9 @@ namespace Core.Domain.Manifest.Entities
         //{
         //    Title = title;
         //}
-        public void ChangeTitle(Guid manifestId)
+        public void ChangeTitle(Manifest manifest,string title)
         {
-          
+          manifest.Title = title;
         }
     }
 }

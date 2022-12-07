@@ -14,16 +14,16 @@ namespace Core.Domain.File.Entities
         public Toolkits_Shared_.ValueObjects.Path Path { get;private set; }
         public Description Description { get; private set; }
         public Guid ContentId { get; set; }
-        private File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name, Guid contentId)
+        public File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name, Guid contentId)
         {
             Name = name;
             Path = path;
             Description = description;
             ContentId = contentId;
         }
-        public File CreateFile(Toolkits_Shared_.ValueObjects.Path path,Description description,string name,Guid contentId)
+        public void AddFile(Toolkits_Shared_.ValueObjects.Path path,Description description,string name,Guid contentId)
         {
-            return new File(path,description,name, contentId);
+        
         } 
         public void DeleteFile (File file)
         {
