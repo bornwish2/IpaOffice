@@ -1,11 +1,12 @@
 ﻿using Core.Domain.Picture.Entities;
+using Framework.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Core.Domain.Content.Entities
 {
-    public class Content
+    public class Content : BaseEntity
     {
         public Guid Id { get; private set; }
         public Guid ManifestId { get;private set; }

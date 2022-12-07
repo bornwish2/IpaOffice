@@ -1,11 +1,12 @@
 ﻿using Core.Domain.Toolkits.ValueObjects;
+using Framework.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Core.Domain.Picture.Entities
 {
-    public class Picture
+    public class Picture : BaseEntity
     {
         /*agg
         برای ایجاد و عملیات مربوط به تصاویر با فرمت
@@ -26,5 +27,18 @@ namespace Core.Domain.Picture.Entities
         {
             return new Picture(path, description, name,contentId);
         }
+        public void ChangePath(long pictureId)
+        {
+
+        }
+        public void ChangeName(long pictureId)
+        {
+
+        }
+        public void ChangeDescription(long pictureId)
+        {
+
+        }
+
     }
 }

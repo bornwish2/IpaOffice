@@ -3,7 +3,7 @@ using Framework.Domain.Entities;
 
 namespace Core.Domain.Form.Entities
 {
-	public class Form : BaseAggregateRoot
+	public class Form : BaseEntity
 	{
 		/*agg
          شامل لیستی از کامپوننت ها
@@ -15,7 +15,20 @@ namespace Core.Domain.Form.Entities
         {
 
         }
+        private Form(string title)
+        {
+            Title = title;
+        }
+     
+        public Form CreateForm(string title)
+        {
+            return new Form(title);
+        }
+        public void ChangeTitle(long formId)
+        {
 
+        }
+    
     }
 }
 

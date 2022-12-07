@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Core.Domain.File.Entities
 {
-    public class File:BaseAggregateRoot
+    public class File:BaseEntity
     {
         /*agg
          برای ایجاد و عملیات فایل با فرمت zip*/
@@ -26,6 +26,18 @@ namespace Core.Domain.File.Entities
             return new File(path,description,name, contentId);
         } 
         public void DeleteFile (File file)
+        {
+
+        }
+        public void ChangePath(long pictureId)
+        {
+
+        }
+        public void ChangeName(long pictureId)
+        {
+
+        }
+        public void ChangeDescription(long pictureId)
         {
 
         }
