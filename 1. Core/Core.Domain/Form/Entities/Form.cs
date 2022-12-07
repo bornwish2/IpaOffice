@@ -59,22 +59,18 @@ namespace Core.Domain.Form.Entities
     public class Composite: BaseAggregateRoot , IComponent
     {
         public string Name { get; protected set;}
-        public ICollection<IComponent> components;
+        public ICollection<IComponent> Forms;
         public Composite(string name)
         {
             this.Name = name;
         }
         public void AddComponent(IComponent component)
         {
-            components.Add(component);
+            Forms.Add(component);
         }
         public void ChangeName(Composite composite, string name)
         {
             composite.Name = name;
-        }
-        public void DeleteForm(Composite composite)
-        {
-
         }
     }
 }
