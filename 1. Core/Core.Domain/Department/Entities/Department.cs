@@ -11,10 +11,9 @@ namespace Core.Domain.Department.Entities
         مثل حسابداری، کارگزینی و ...
 		*/
 
-		private readonly List<user> _users;
-		public IReadOnlyCollection<user> Users => _users;
+		public ICollection<DepartmentUser> Users { get; private set; }
 
-		private DateTime _creatDate;
+
 
 		public string Title { get; protected set; }
 
@@ -31,8 +30,7 @@ namespace Core.Domain.Department.Entities
 		{
 			Title = title;
 			Description = description;
-			_users = new List<User.Entities.User>();
-			_creatDate = DateTime.Now;
+			Users = new List<Department>();
 		}
 
 
@@ -50,7 +48,12 @@ namespace Core.Domain.Department.Entities
 		/// Add existing user to departmant
 		/// </summary>
 		/// <param name="user"></param>
-		public void AddUser(user user) => _users.Add(user);
+		public void AddUser(user user)
+		{
+			var departmentUser = new DepartmentUser();
+			departmentUser.AddUser(user);
+			Users.Add(departmentUser);
+		}
 
 
 		/// <summary>
@@ -74,16 +77,17 @@ namespace Core.Domain.Department.Entities
 				phoneNumber,
 				adress
 				);
-
-			_users.Add(newUser);
+			var departtmentUser = new DepartmentUser();
+			departtmentUser.AddUser(newUser);
+			Users.Add(departtmentUser);
 		}
 
 
 		/// <summary>
-		/// remove User From Departmant
+		/// remove Users From Departmant
 		/// </summary>
 		/// <param name="user"></param>
-		public void RemoveUser(user user) => _users.Remove(user);
+		public void RemoveUser(DepartmentUser user) => Users.Remove(user);
 
 
 		/// <summary>
@@ -92,13 +96,13 @@ namespace Core.Domain.Department.Entities
 		/// <param name="newUser"></param>
 		/// <param name="oldUser"></param>
 		/// <exception cref="BadRequestException"></exception>
-		public void UpdateUser(user newUser, user oldUser)
+		public void UpdateUser(DepartmentUser newUser, DepartmentUser oldUser)
 		{
 			if (ReferenceEquals(oldUser, newUser))
 				throw new BadRequestException("user is the same");
 
-			_users.Remove(oldUser);
-			_users.Add(newUser);
+			Users.Remove(oldUser);
+			Users.Add(newUser);
 		}
 	}
 }

@@ -4,20 +4,19 @@ namespace Core.Domain.User.Entities
 {
 	public sealed class User : BaseAggregateRoot
 	{
-		public Role Role { get; protected set; }
+		public Role Role { get; protected set; } // must be a list refactor it with userRoles
 
 
-		public string? FirstName { get; protected set; }
+		public string FirstName { get; protected set; }
 
-		public string? LastName { get; protected set; }
+		public string LastName { get; protected set; }
 
-		public string? Email { get; protected set; }
+		public string Email { get; protected set; }
 
-		public string? PhoneNumber { get; protected set; }
+		public string PhoneNumber { get; protected set; }
 
-		public string? Adress { get; protected set; }
+		public string Adress { get; protected set; }
 
-		public DateTime DateJoind { get; protected set; }
 
 
 		///////behaviors////////
@@ -30,8 +29,7 @@ namespace Core.Domain.User.Entities
 		/// <param name="email"></param>
 		/// <param name="phoneNumber"></param>
 		/// <param name="adress"></param>
-		/// <param name="dateJoind"></param>
-		private User(Role roleId, string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
+		private User(Role roleId, string firstName, string lastName, string email, string phoneNumber, string adress)
 		{
 			Role = roleId;
 			FirstName = firstName;
@@ -39,7 +37,6 @@ namespace Core.Domain.User.Entities
 			Email = email;
 			PhoneNumber = phoneNumber;
 			Adress = adress;
-			DateJoind = DateTime.Now;
 		}
 
 
@@ -51,15 +48,13 @@ namespace Core.Domain.User.Entities
 		/// <param name="email"></param>
 		/// <param name="phoneNumber"></param>
 		/// <param name="adress"></param>
-		/// <param name="dateJoind"></param>
-		private User(string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
+		private User(string firstName, string lastName, string email, string phoneNumber, string adress)
 		{
 			FirstName = firstName;
 			LastName = lastName;
 			Email = email;
 			PhoneNumber = phoneNumber;
 			Adress = adress;
-			DateJoind = DateTime.Now;
 		}
 
 
@@ -82,7 +77,7 @@ namespace Core.Domain.User.Entities
 		/// <param name="dateJoind"></param>
 		/// <returns>User</returns>
 		public static User CreatUser(Role role,
-			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
+			string firstName, string lastName, string email, string phoneNumber, string adress)
 		{
 			return new(
 				role,
@@ -107,7 +102,7 @@ namespace Core.Domain.User.Entities
 		/// <param name="dateJoind"></param>
 		/// <returns>User</returns>
 		public static User CreatUser(
-			string? firstName, string? lastName, string? email, string? phoneNumber, string? adress)
+			string firstName, string lastName, string email, string phoneNumber, string adress)
 		{
 			return new(
 				firstName,

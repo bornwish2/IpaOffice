@@ -12,8 +12,4 @@
     <ProjectReference Include="..\..\0. Framework\Framework.Utilities\Framework.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mailroom\ValueObject\" />
-  </ItemGroup>
-
 </Project>
