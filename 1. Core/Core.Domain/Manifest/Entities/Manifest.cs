@@ -9,10 +9,6 @@ namespace Core.Domain.Manifest.Entities
 {
     public class Manifest : BaseAggregateRoot
     {
-        /*agg
-         برای ایجاد و دیگر عملیات های مربوط به نامه یا اعلامیه یا فراخوان یا ...
-        پیاده سازی با کمک composite design pattern
-        شامل لیستی از کانتنت ها به صورت dictionary<tuple(structureId,formId,contentId),value>*/
         public Guid Id { get;protected set; }
         public string Title { get;protected set; }
         public long FormId { get;protected set; }
@@ -29,11 +25,11 @@ namespace Core.Domain.Manifest.Entities
         {
 
         }
-        public Manifest CreateManifest(string title,long structureId,long dispatcherId)
+        public Manifest CreateManifest(string title,long formId,long dispatcherId)
         {
-            return new Manifest(title,structureId, dispatcherId);
+            return new Manifest(title,formId, dispatcherId);
         }
-        public void DeleteManifest (long manifestId)
+        public void DeleteManifest (Guid manifestId)
         {
 
         }
@@ -41,7 +37,7 @@ namespace Core.Domain.Manifest.Entities
         //{
         //    Title = title;
         //}
-        public void ChangeTitle(long manifestId)
+        public void ChangeTitle(Guid manifestId)
         {
           
         }

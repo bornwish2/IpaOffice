@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Core.Domain.Document.Entities
 {
-    internal class Document :BaseEntity
+    internal class Document : BaseAggregateRoot
     {
         /*agg
          برای ایجاد و عملیات مربوط به مستندات با فرمت

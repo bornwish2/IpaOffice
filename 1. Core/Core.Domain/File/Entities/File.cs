@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Core.Domain.File.Entities
 {
-    public class File:BaseEntity
+    public class File: BaseAggregateRoot
     {
         /*agg
          برای ایجاد و عملیات فایل با فرمت zip*/

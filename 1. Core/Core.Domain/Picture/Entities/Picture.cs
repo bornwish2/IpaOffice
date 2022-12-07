@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Core.Domain.Picture.Entities
 {
-    public class Picture : BaseEntity
+    public class Picture : BaseAggregateRoot
     {
         /*agg
         برای ایجاد و عملیات مربوط به تصاویر با فرمت

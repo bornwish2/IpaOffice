@@ -9,7 +9,7 @@ namespace Core.Domain.Content.Entities
     public class Content : BaseEntity
     {
         public Guid Id { get; private set; }
-        public Guid ManifestId { get;private set; }
+        public long FormId { get;private set; }
         public string Name { get;private set; }
         public ContentType Type { get;private set; }
         public Guid ValueId { get;private set; }
@@ -17,12 +17,12 @@ namespace Core.Domain.Content.Entities
         {
 
         }
-        public Content(Guid id,string name,ContentType type,Guid manifestId)
+        public Content(Guid id,string name,ContentType type,long formId)
         {
             Id= id;
             Name= name;
             Type= type;
-            ManifestId= manifestId;
+            FormId= formId;
         }
         public void FillContent(Guid valueId)
         {
@@ -35,37 +35,37 @@ namespace Core.Domain.Content.Entities
     }
     public static class ContentFactory
     {
-        public static Content ContentPicture(Guid id, string name, Guid manifestId)
+        public static Content ContentPicture(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.Picture,manifestId);
+            return new Content(id, name, ContentType.Picture, formId);
         }
-        public static Content ContentString(Guid id, string name, Guid manifestId)
+        public static Content ContentString(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.String, manifestId);
+            return new Content(id, name, ContentType.String, formId);
         }
-        public static Content ContentFile(Guid id, string name, Guid manifestId)
+        public static Content ContentFile(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.File, manifestId);
+            return new Content(id, name, ContentType.File, formId);
         }
-        public static Content ContentDocument(Guid id, string name, Guid manifestId)
+        public static Content ContentDocument(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.Document, manifestId);
+            return new Content(id, name, ContentType.Document, formId);
         }
-        public static Content ContentDateTime(Guid id, string name, Guid manifestId)
+        public static Content ContentDateTime(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.DateTime, manifestId);
+            return new Content(id, name, ContentType.DateTime, formId);
         }
-        public static Content ContentDate(Guid id, string name, Guid manifestId)
+        public static Content ContentDate(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.Date, manifestId);
+            return new Content(id, name, ContentType.Date, formId);
         }
-        public static Content ContentTime(Guid id, string name, Guid manifestId)
+        public static Content ContentTime(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.Time, manifestId);
+            return new Content(id, name, ContentType.Time, formId);
         }
-        public static Content ContentBoolean(Guid id, string name, Guid manifestId)
+        public static Content ContentBoolean(Guid id, string name, long formId)
         {
-            return new Content(id, name, ContentType.Boolean, manifestId);
+            return new Content(id, name, ContentType.Boolean, formId);
         }
     }
 }

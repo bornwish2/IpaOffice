@@ -3,8 +3,8 @@ using Framework.Domain.Entities;
 
 namespace Core.Domain.Form.Entities
 {
-	public class Form : BaseEntity
-	{
+	public class Form : BaseAggregateRoot
+    {
 		/*agg
          شامل لیستی از کامپوننت ها
         برای مثال فرم ثبت نام یا فرم استخدام 

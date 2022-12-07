@@ -10,16 +10,13 @@ namespace Core.Domain.Content.Entities
     public enum ContentState
     {
 
-        //[Description("پیش نویس")]
-        //Draft = 1,
+        [Description("درحال نوشتن")]
+        Draft = 1,
 
-        //[Description("در حال ارسال")]
-        //Sending = 2,
+        [Description("نوشته شده")]
+        Sending = 2,
 
-        //[Description("ارسال شده")]
-        //Sent = 3,
-
-        //[Description("بسته شده")]
-        //Closed = 4
+        [Description("اضافه شده")]
+        Sent = 3,
     }
 }
