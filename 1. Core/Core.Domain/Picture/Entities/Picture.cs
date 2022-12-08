@@ -12,32 +12,32 @@ namespace Core.Domain.Picture.Entities
         برای ایجاد و عملیات مربوط به تصاویر با فرمت
        jpg یا  png*/
         public String Name { get; protected set; }
-        public Toolkits_Shared_.ValueObjects.Path Path { get; protected set; }
+        public Toolkits.ValueObjects.Path Path { get; protected set; }
         public Description Description { get; protected set; }
         public Guid ContentId { get; set; }
         private Picture() { }
-        public Picture(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
+        public Picture(Toolkits.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
             Name = name;
             Path = path;
             Description = description;
             ContentId=contentId;
         }
-        public void AddFile(Toolkits_Shared_.ValueObjects.Path path, Description description, string name,Guid contentId)
+        public void AddFile(Toolkits.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
             
         }
-        public void ChangePath(long pictureId)
+        public void ChangePath(Picture picture, Toolkits.ValueObjects.Path path)
         {
-
+            picture.Path = path;
         }
-        public void ChangeName(long pictureId)
+        public void ChangeName(Picture picture, string name)
         {
-
+            picture.Name = name;
         }
-        public void ChangeDescription(long pictureId)
+        public void ChangeDescription(Picture picture, Description description)
         {
-
+            picture.Description = description;
         }
 
     }

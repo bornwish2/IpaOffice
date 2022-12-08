@@ -11,35 +11,26 @@ namespace Core.Domain.File.Entities
         /*agg
          برای ایجاد و عملیات فایل با فرمت zip*/
         public String Name { get;private set; }
-        public Toolkits_Shared_.ValueObjects.Path Path { get;private set; }
+        public Toolkits.ValueObjects.Path Path { get;private set; }
         public Description Description { get; private set; }
         public Guid ContentId { get; set; }
-        public File( Toolkits_Shared_.ValueObjects.Path path, Description description, string name, Guid contentId)
+        public File( Toolkits.ValueObjects.Path path, string name, Guid contentId)
         {
             Name = name;
             Path = path;
-            Description = description;
             ContentId = contentId;
         }
-        public void AddFile(Toolkits_Shared_.ValueObjects.Path path,Description description,string name,Guid contentId)
+        public void ChangePath(File file, Toolkits.ValueObjects.Path path)
         {
-        
-        } 
-        public void DeleteFile (File file)
-        {
-
+            file.Path = path;
         }
-        public void ChangePath(long pictureId)
+        public void ChangeName(File file,string name)
         {
-
+            file.Name = name;
         }
-        public void ChangeName(long pictureId)
+        public void ChangeDescription(File file, Description description)
         {
-
-        }
-        public void ChangeDescription(long pictureId)
-        {
-
+            file.Description = description;
         }
     }
 }

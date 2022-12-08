@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Domain.Toolkits_Shared_.ValueObjects
-{
+namespace Core.Domain.Toolkits.ValueObjects 
+{ 
     public class Path : BaseValueObject<Path>
     {
         public string Value { get; set; }
