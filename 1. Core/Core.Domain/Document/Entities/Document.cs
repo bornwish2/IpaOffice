@@ -9,13 +9,14 @@ namespace Core.Domain.Document.Entities
 {
     public class Document : BaseAggregateRoot
     {
-        /*agg
-         برای ایجاد و عملیات مربوط به مستندات با فرمت
-        pdf یا  word*/
+        #region Properties
         public String Code { get;protected set; }
         public Toolkits.ValueObjects.Path Path { get; protected set; }
         public Description Description { get; protected set; }
         public Guid ContentId { get;protected set; }
+        #endregion
+
+        #region Constructors
         public Document(Toolkits.ValueObjects.Path path, Description description, string code, Guid contentId)
         {
             Code = code;
@@ -23,10 +24,13 @@ namespace Core.Domain.Document.Entities
             Description = description;
             ContentId = contentId;
         }
-        public void AddDocument(Toolkits.ValueObjects.Path path, Description description, string name,Guid contentId)
+        private Document()
         {
-          
+
         }
+        #endregion
+
+        #region Methods
         public void ChangePath(Document document, Toolkits.ValueObjects.Path path)
         {
             document.Path = path;
@@ -39,5 +43,6 @@ namespace Core.Domain.Document.Entities
         {
             document.Description = description;
         }
+        #endregion
     }
 }

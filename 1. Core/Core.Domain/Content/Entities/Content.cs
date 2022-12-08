@@ -16,6 +16,7 @@ namespace Core.Domain.Content.Entities
         public long FormId { get; private set; }
         public Guid ValueId { get;private set; }
         #endregion
+
         #region Constructors
         private Content()
         {
@@ -36,23 +37,18 @@ namespace Core.Domain.Content.Entities
         {
             ValueId= valueId;
         }
-        public void ModifyContent(Guid valueId)
-        {
-            ValueId = valueId;
-        }
-        public void RemoveContent(Content content)
-        {
-
-        }
         public void ChangeName(Content content,string name)
         {
-            content.Name= name;
+            content.Name = name;
         }
         public void SetContentState(Content content,ContentState state)
         {
             content.State = state;
         }
-
+        public void SetContentType(Content content, ContentType type)
+        {
+            content.Type = type;
+        }
         #endregion
     }
     public static class ContentFactory

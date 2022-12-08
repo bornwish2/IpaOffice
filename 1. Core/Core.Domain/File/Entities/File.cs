@@ -8,18 +8,27 @@ namespace Core.Domain.File.Entities
 {
     public class File: BaseAggregateRoot
     {
-        /*agg
-         برای ایجاد و عملیات فایل با فرمت zip*/
+        #region Properties
         public String Name { get;private set; }
         public Toolkits.ValueObjects.Path Path { get;private set; }
         public Description Description { get; private set; }
-        public Guid ContentId { get; set; }
+        public Guid ContentId { get;private set; }
+        #endregion
+
+        #region Constructors
         public File( Toolkits.ValueObjects.Path path, string name, Guid contentId)
         {
             Name = name;
             Path = path;
             ContentId = contentId;
         }
+        private File()
+        {
+
+        }
+        #endregion
+
+        #region Methods
         public void ChangePath(File file, Toolkits.ValueObjects.Path path)
         {
             file.Path = path;
@@ -32,5 +41,6 @@ namespace Core.Domain.File.Entities
         {
             file.Description = description;
         }
+        #endregion
     }
 }

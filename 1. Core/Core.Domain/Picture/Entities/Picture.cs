@@ -8,13 +8,14 @@ namespace Core.Domain.Picture.Entities
 {
     public class Picture : BaseAggregateRoot
     {
-        /*agg
-        برای ایجاد و عملیات مربوط به تصاویر با فرمت
-       jpg یا  png*/
+        #region Properties
         public String Name { get; protected set; }
         public Toolkits.ValueObjects.Path Path { get; protected set; }
         public Description Description { get; protected set; }
         public Guid ContentId { get; set; }
+        #endregion
+
+        #region Constructors
         private Picture() { }
         public Picture(Toolkits.ValueObjects.Path path, Description description, string name,Guid contentId)
         {
@@ -23,10 +24,9 @@ namespace Core.Domain.Picture.Entities
             Description = description;
             ContentId=contentId;
         }
-        public void AddFile(Toolkits.ValueObjects.Path path, Description description, string name,Guid contentId)
-        {
-            
-        }
+        #endregion
+
+        #region Methods
         public void ChangePath(Picture picture, Toolkits.ValueObjects.Path path)
         {
             picture.Path = path;
@@ -39,6 +39,6 @@ namespace Core.Domain.Picture.Entities
         {
             picture.Description = description;
         }
-
+        #endregion
     }
 }
